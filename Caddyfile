@@ -1,0 +1,4 @@
+aleacevedo.xyz/code/* {
+  uri strip_prefix /code
+  reverse_proxy 127.0.0.1:8080
+}

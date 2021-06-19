@@ -3,9 +3,9 @@ version: "2"
 services:
   config-editor:
     build: .
-    container_name: code-server
+    container_name: code-server-b
     ports:
-      - 8443:8443
+      - 8443:8080
     restart: unless-stopped
     environment:
       - PUID=0
